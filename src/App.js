@@ -145,7 +145,7 @@ class App extends React.Component {
                 <button className="button" onClick={this.isWeightModerate}>25-50 lbs</button>
               </div>
               <div className = "child-9">
-                <button className="button">50-75 lbs</button>
+                <button className="button" onClick={this.isWeightHeavy}>50-75 lbs</button>
                 <button className="button">75-100 lbs</button>
 
               </div>
