@@ -17,16 +17,6 @@
   background-color:#9F9D9D;
 }
 
-/* .wrapper { */
-  /* background-color:#5A5B64;
-  border-radius: 1.5%;
-  border: solid;
-  display: grid;
-  grid-template-columns:1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  width:  */
-/* } */
-
 .left-form {
  display: grid;
  grid-row-start: 1;
@@ -79,6 +69,7 @@ border:solid white 5px; */
   grid-row-end: 3;
   justify-content: center;
   align-content: center;
+  padding-top: 0;
 }
 
 .child-4 {
