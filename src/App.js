@@ -11,12 +11,61 @@ class App extends React.Component {
         breed: "",
         birthday: "",
         gender: "",
-        fixed: "false",
+        fixed: "",
         weight: ""
       }
     
   }
   
+  onNameChange = (event) => {
+    this.setState({
+      name: event.target.value
+    })
+  }
+
+  onBreedChange = (event) => {
+    this.setState({
+      breed: event.target.value
+    })
+  }
+
+  onBirthdayChange = (event) => {
+    this.setState({
+      birthday: event.target.value
+    })
+  }
+
+  isPetMale = (event) => {
+    event.preventDefault()
+    this.setState({
+      gender: "male"
+    })
+  }
+
+  isPetFemale = (event) => {
+    event.preventDefault()
+    this.setState({
+      gender: "female"
+    })
+  }
+
+  isPetFixed = (event) => {
+    event.preventDefault()
+    this.setState({
+      fixed: false
+    })
+  }
+
+  isPetNotFixed = (event) => {
+    event.preventDefault()
+    this.setState({
+      fixed: true
+    })
+  }
+
+
+
+
 
 
   render() {
