@@ -70,6 +70,14 @@ class App extends React.Component {
     })
   }
 
+  isWeightModerate = (event) => {
+    event.preventDefault()
+    this.setState({
+      weight: "25-50 lbs"
+    })
+  }
+  
+
 
 
 
