@@ -31,7 +31,8 @@ class App extends React.Component {
                 <h2>We love pets! Give us the deets about your favorite companion!</h2>
               </div>
               <div className = "child-2">
-
+                <p>Name</p>
+                <input type="name" placeholder="Enter pet's name"></input>
               </div>
               <div className = "child-3">
 
