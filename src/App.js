@@ -84,7 +84,12 @@ class App extends React.Component {
     })
   }
   
-
+  isWeightExtraHeavy = (event) => {
+    event.preventDefault()
+    this.setState({
+      weight: "75-100 lbs"
+    })
+  }
 
 
 
