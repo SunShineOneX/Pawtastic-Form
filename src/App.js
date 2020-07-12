@@ -39,10 +39,10 @@ class App extends React.Component {
 
               </div>
               <div className = "child-4">
-
+                <p>Breed</p>
               </div>
               <div className = "child-5">
-
+                <p>Birthday</p>
               </div>
               <div className = "child-6">
 
@@ -57,12 +57,6 @@ class App extends React.Component {
 
               </div>
               <div className = "child-10">
-
-              </div>
-              <div className = "child-11">
-
-              </div>
-              <div className = "child-12">
 
               </div>
             </div>
