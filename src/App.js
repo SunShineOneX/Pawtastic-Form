@@ -32,9 +32,10 @@ class App extends React.Component {
               </div>
               <div className = "child-2">
                 <p>Name</p>
-                <input type="name" placeholder="Enter pet's name"></input>
+                <input type="text" placeholder="Enter pet's name" className="input-text"></input>
               </div>
               <div className = "child-3">
+              <p>Upload a photo</p>
 
               </div>
               <div className = "child-4">
@@ -44,6 +45,24 @@ class App extends React.Component {
 
               </div>
               <div className = "child-6">
+
+              </div>
+              <div className = "child-7">
+
+              </div>
+              <div className = "child-8">
+
+              </div>
+              <div className = "child-9">
+
+              </div>
+              <div className = "child-10">
+
+              </div>
+              <div className = "child-11">
+
+              </div>
+              <div className = "child-12">
 
               </div>
             </div>

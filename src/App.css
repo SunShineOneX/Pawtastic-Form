@@ -67,15 +67,16 @@ border:solid white 5px; */
   grid-row-start: 2;
   grid-row-end: 3;
   border: solid white;
-  padding-left: 8vh;
+  padding-left: 5vh;
+  justify-content: stretch;
 }
 
 .child-3 {
   display: grid;
-  grid-column-start: 2;
+  grid-column-start: 3;
   grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 3;
   border: solid white;
 }
 
@@ -111,4 +112,9 @@ border:solid white 5px; */
 p {
   font-size: 20px;
   margin-top: 0;
+}
+
+.input-text {
+  margin-top: 0;
+  width: 20vh;
 }
