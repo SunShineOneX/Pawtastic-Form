@@ -54,14 +54,14 @@ class App extends React.Component {
   isPetFixed = (event) => {
     event.preventDefault()
     this.setState({
-      fixed: false
+      fixed: true
     })
   }
 
   isPetNotFixed = (event) => {
     event.preventDefault()
     this.setState({
-      fixed: true
+      fixed: false
     })
   }
 
