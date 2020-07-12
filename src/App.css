@@ -10,7 +10,7 @@
   border: solid;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh;
+  grid-template-rows: 15vh 15vh 15vh 15vh 15vh 8vh;
   border-radius: 1.5%;
   border: solid;
   background-color:#9F9D9D;
@@ -53,7 +53,6 @@ border:solid white 5px; */
   grid-row-start: 1;
   grid-row-end: 2;
   text-align: center;
-  border: solid white;
   padding: 0 9vh 0 9vh;
   justify-content: center;
   align-content: center;
@@ -66,7 +65,6 @@ border:solid white 5px; */
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
-  border: solid white;
   justify-content: center;
   align-content: center;
   
@@ -78,7 +76,6 @@ border:solid white 5px; */
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 3;
-  border: solid white;
   justify-content: center;
   align-content: center;
 }
@@ -89,7 +86,6 @@ border:solid white 5px; */
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 4;
-  border: solid white;
   justify-content: center;
   align-content: center;
 }
@@ -100,18 +96,17 @@ border:solid white 5px; */
   grid-column-end: 4;
   grid-row-start: 3;
   grid-row-end: 4;
-  border: solid white;
   justify-content: center;
   align-content: center;
 }
 
 .child-6 {
+  padding-top: 2.5vh;
   display: grid;
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 4;
   grid-row-end: 5;
-  border: solid white;
   justify-content: center;
   align-content: center;
   padding-bottom: 20px;
@@ -124,7 +119,6 @@ border:solid white 5px; */
   grid-column-end: 4;
   grid-row-start: 4;
   grid-row-end: 5;
-  border: solid white;
   justify-content: center;
   align-content: center;
 }
@@ -135,17 +129,16 @@ border:solid white 5px; */
   grid-column-end: 3;
   grid-row-start: 5;
   grid-row-end: 6;
-  border: solid white;
   justify-content: center;
   align-content: center;
 }
 .child-9 {
+  padding-top: 5.5vh;
   display: grid;
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 5;
   grid-row-end: 6;
-  border: solid white;
   justify-content: center;
   align-content: center;
 }
@@ -156,7 +149,6 @@ border:solid white 5px; */
   grid-column-end: 3;
   grid-row-start: 6;
   grid-row-end: 7;
-  border: solid white;
   border-radius: 1.5%;
   background-color: white;
   justify-content: center;
@@ -169,7 +161,6 @@ border:solid white 5px; */
   grid-column-end: 4;
   grid-row-start: 6;
   grid-row-end: 7;
-  border: solid white;
   border-radius: 1.5%;
   background-color: white;
   justify-content: center;
@@ -188,4 +179,5 @@ p {
 
 .button {
   width: 20vh;
+  cursor: pointer;
 }
