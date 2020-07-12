@@ -154,7 +154,7 @@ class App extends React.Component {
       
               </div>
               <div className = "child-11">
-                <button className="button">Next</button>
+                <button className="button" onClick={this.handleFormSubmission}>Next</button>
               </div>
             </div>
           </div>
