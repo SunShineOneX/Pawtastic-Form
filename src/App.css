@@ -3,7 +3,20 @@
 }
 
 .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 3;
   padding: 20vh 20vh 40vh 20vh;
   background-color:#5A5B64;
   border-radius: 1.5%;
+  border: solid;
+}
+
+.form-left {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  border:black;
 }
