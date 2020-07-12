@@ -40,24 +40,39 @@ class App extends React.Component {
               </div>
               <div className = "child-4">
                 <p>Breed</p>
+                <input type="text" placeholder="Enter pet's breed" className="input-text"></input>
               </div>
               <div className = "child-5">
                 <p>Birthday</p>
+                <input type="text" placeholder="Enter pet's birthdate" className="input-text"></input>
               </div>
               <div className = "child-6">
-
+                <p>Gender</p>
+                <button className="button">Male</button>
+                <button className="button">Female</button>
+                
               </div>
               <div className = "child-7">
-
+                <p>Spayed or Neutered</p>
+                <button className="button">Yes</button>
+                <button className="button">No</button>
               </div>
               <div className = "child-8">
-
+                <p>Weight</p>
+                <button className="button">0-25 lbs</button>
+                <button className="button">25-50 lbs</button>
               </div>
               <div className = "child-9">
+                <button className="button">50-75 lbs</button>
+                <button className="button">75-100 lbs</button>
 
               </div>
               <div className = "child-10">
-
+                <button className="button">Back</button>
+      
+              </div>
+              <div className = "child-11">
+                <button className="button">Next</button>
               </div>
             </div>
           </div>

@@ -114,6 +114,8 @@ border:solid white 5px; */
   border: solid white;
   justify-content: center;
   align-content: center;
+  padding-bottom: 20px;
+  
 }
 
 .child-7 {
@@ -151,12 +153,27 @@ border:solid white 5px; */
 .child-10 {
   display: grid;
   grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  border: solid white;
+  border-radius: 1.5%;
+  background-color: white;
+  justify-content: center;
+  align-content: center;
+}
+
+.child-11 {
+  display: grid;
+  grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 6;
   grid-row-end: 7;
   border: solid white;
   border-radius: 1.5%;
-  background-color: white;;
+  background-color: white;
+  justify-content: center;
+  align-content: center;
 }
 
 p {
@@ -166,5 +183,9 @@ p {
 
 .input-text {
   margin-top: 0;
+  width: 20vh;
+}
+
+.button {
   width: 20vh;
 }
