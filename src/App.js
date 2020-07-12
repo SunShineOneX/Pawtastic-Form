@@ -12,7 +12,8 @@ class App extends React.Component {
         birthday: "",
         gender: "",
         fixed: "",
-        weight: ""
+        weight: "",
+        formCompleted: false
       }
     
   }
