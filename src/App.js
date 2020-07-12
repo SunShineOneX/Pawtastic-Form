@@ -155,7 +155,14 @@ class App extends React.Component {
               </div>
               <div className = "child-11">
                 <button className="button" onClick={this.handleFormSubmission}>Next</button>
-              </div>
+                </div>
+                {this.state.formCompleted === true
+                ?
+                <div className= "child-12">
+                  <h3>Thank you for updating your information with Pawtastic! Let's schedule your appointment.</h3>
+                  </div>
+                : null}
+              
             </div>
           </div>
         
