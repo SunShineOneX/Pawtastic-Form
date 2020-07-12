@@ -4,6 +4,7 @@
 
 .h2 {
   font-size: 50px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .parent {
@@ -170,6 +171,7 @@ border:solid white 5px; */
 p {
   font-size: 20px;
   margin-top: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .input-text {
