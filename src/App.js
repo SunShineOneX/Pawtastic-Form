@@ -114,7 +114,7 @@ class App extends React.Component {
               </div>
               <div className = "child-2">
                 <p>Name</p>
-                <input type="text" placeholder="Enter pet's name" className="input-text"></input>
+                <input type="name" placeholder="Enter pet's name" className="input-text" value={this.state.name} onChange={this.onNameChange}></input>
               </div>
               <div className = "child-3">
               <p>Upload a photo</p>
@@ -122,7 +122,7 @@ class App extends React.Component {
               </div>
               <div className = "child-4">
                 <p>Breed</p>
-                <input type="text" placeholder="Enter pet's breed" className="input-text"></input>
+                <input type="breed" placeholder="Enter pet's breed" className="input-text" value={this.state.breed} onChange={this.onBreedChange}></input>
               </div>
               <div className = "child-5">
                 <p>Birthday</p>
