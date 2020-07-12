@@ -26,9 +26,9 @@ class App extends React.Component {
             <div className = "left-form">
                   <h1>Pawtastic</h1>
             </div>
-            <div className = "pet-form">
+      
               <div className = "child-1">
-                <h1>We love pets! Give us the deets about your favorite companion!</h1>
+                <h2>We love pets! Give us the deets about your favorite companion!</h2>
               </div>
               <div className = "child-2">
 
@@ -42,9 +42,12 @@ class App extends React.Component {
               <div className = "child-5">
 
               </div>
+              <div className = "child-6">
+
+              </div>
             </div>
           </div>
-        </div>
+        
       
     )
   }
