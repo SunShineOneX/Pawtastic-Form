@@ -2,3 +2,8 @@
   text-align: center;
 }
 
+.wrapper {
+  padding: 20vh 20vh 40vh 20vh;
+  background-color:#5A5B64;
+  border-radius: 1.5%;
+}
