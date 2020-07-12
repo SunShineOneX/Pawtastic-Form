@@ -126,23 +126,23 @@ class App extends React.Component {
               </div>
               <div className = "child-5">
                 <p>Birthday</p>
-                <input type="text" placeholder="Enter pet's birthdate" className="input-text"></input>
+                <input type="birthday" placeholder="Enter pet's birthdate" className="input-text" value={this.state.birthday} onChange={this.onBirthdayChange}></input>
               </div>
               <div className = "child-6">
                 <p>Gender</p>
-                <button className="button">Male</button>
-                <button className="button">Female</button>
+                <button className="button" onClick={this.isPetMale}>Male</button>
+                <button className="button" onClick={this.isPetFemale}>Female</button>
                 
               </div>
               <div className = "child-7">
                 <p>Spayed or Neutered</p>
-                <button className="button">Yes</button>
-                <button className="button">No</button>
+                <button className="button" onClick={this.isPetFixed}>Yes</button>
+                <button className="button" onClick={this.isPetNotFixed}>No</button>
               </div>
               <div className = "child-8">
                 <p>Weight</p>
-                <button className="button">0-25 lbs</button>
-                <button className="button">25-50 lbs</button>
+                <button className="button" onClick={this.isWeightLight}>0-25 lbs</button>
+                <button className="button" onClick={this.isWeightModerate}>25-50 lbs</button>
               </div>
               <div className = "child-9">
                 <button className="button">50-75 lbs</button>
