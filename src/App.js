@@ -92,6 +92,12 @@ class App extends React.Component {
     })
   }
 
+  handleFormSubmission = (event) => {
+    event.preventDefault()
+    this.setState({
+      formCompleted: true
+    })
+  }
 
 
 
