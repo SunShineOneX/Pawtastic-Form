@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 
 
+
 class App extends React.Component {
 
   constructor() {
@@ -108,6 +109,18 @@ class App extends React.Component {
             <div className = "left-form">
                   <h1>Pawtastic</h1>
             </div>
+            {/* <div className="left-form-img-1">
+              <img src="./veterinary.png" />
+            </div> */}
+            <div className="left-form-img-2">
+              <img src="./heart2.png" />
+            </div>
+            {/* <div className="left-form-img-3">
+              <img src="./hospital.png" />
+            </div>
+            <div className="left-form-img-4">
+              <img src="./heart.png" />
+            </div> */}
       
               <div className = "child-1">
                 <h2>We love pets! Give us the deets about your favorite companion!</h2>
