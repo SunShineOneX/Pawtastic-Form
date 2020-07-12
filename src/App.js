@@ -63,6 +63,12 @@ class App extends React.Component {
     })
   }
 
+  isWeightLight = (event) => {
+    event.preventDefault()
+    this.setState({
+      weight: "0-25 lbs"
+    })
+  }
 
 
 
